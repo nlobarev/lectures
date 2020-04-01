@@ -1,9 +1,10 @@
+$linkColor: red
 nav {
   font-size: 20px;
 
   a {
     float: left;
-    color: red;
+    color: $linkColor;
   }
 }
 
