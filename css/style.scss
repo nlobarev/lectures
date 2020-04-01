@@ -1,0 +1,19 @@
+nav {
+  font-size: 20px;
+
+  a {
+    float: left;
+    color: red;
+  }
+}
+
+
+
+h2::selection{
+  color:black;
+  background-color:black;
+}
+h2 > span::selection{
+  color:white;
+  background-color:black;
+}
