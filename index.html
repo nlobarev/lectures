@@ -3,9 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>My Webpage!</title>
+    <style>
+      h2::selection{
+        color:black;
+        background-color:black;
+      }
+      h2 > span::selection{
+        color:white;
+        background-color:black;
+      }
+    </style>
   </head>
   <body>
     <h1>Authorsation</h1>
-    <h2>Login or Sign-up</h2>
+    <h2>Login or <span>Sign-up</span></h2>
+
   </body>
 </html>
